@@ -28,6 +28,8 @@ alias vs="   $1"
 alias ..="cd .."
 alias .="cd ."
 alias /="cd /"
+alias gomount="cd /mnt/hgfs/shared"
+
 
 #alias nmap
 alias tcpA="nmap -sT -sC -sV -A -O -p -oA tcp_all_$1_$y$,$d-$T -nv $1"
@@ -39,5 +41,5 @@ alias ge="gedit $1"
 
 
 #alias netstat 
-alias open="netstat -nape --inet"
-alias listen="netstat -an | grep LISTEN | awk '{print $1}' | sort -n"
+alias openport="netstat -nape --inet"
+alias listenport="netstat -an | grep LISTEN | awk '{print $1}' | sort -n"
