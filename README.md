@@ -40,5 +40,5 @@ alias ge="gedit $1"
 
 
 #alias netstat 
-alias openports="netstat -nape --inet"
-alias listening="netstat -an | grep LISTEN | awk '{print $1}' | sort -n"
+alias open="netstat -nape --inet"
+alias listen="netstat -an | grep LISTEN | awk '{print $1}' | sort -n"
