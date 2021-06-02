@@ -24,6 +24,10 @@ alias srv80="python3 -m http.server 80"
 alias srv8080="python3 -m http.server 8080"
 alias smbsrv="sudo impacket-smbserver"
 alias myip="echo;ip -c --brief addr | awk '{print \"\t\" \$1,\"\t\",\$3}';echo"
+alias vs="   $1"
+alias ..="cd .."
+alias .="cd ."
+alias /="cd /"
 
 #alias nmap
 alias tcpA="nmap -sT -sC -sV -A -O -p -oA tcp_all_$1_$y$,$d-$T -nv $1"
