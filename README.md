@@ -34,6 +34,11 @@ alias tcpA="nmap -sT -sC -sV -A -O -p -oA tcp_all_$1_$y$,$d-$T -nv $1"
 alias udpA="nmap -sU -sC -p -oA udp_all_$1_%y%m%d-%T -nv $1"
 alias udpT="nmap -sU -sC — top-ports 200 $1 -oA udp_top$1_$2_%y%m%d-%T -nv $2"
 
+"editors"
+alias vs="/usr/share/code/code --no-sandbox --unity-launch"
+alias ge="gedit $1"
+
+
 #alias netstat 
 alias openports="netstat -nape --inet"
 alias listening="netstat -an | grep LISTEN | awk '{print $1}' | sort -n"
