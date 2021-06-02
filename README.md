@@ -35,7 +35,6 @@ alias udpA="nmap -sU -sC -p -oA udp_all_$1_%y%m%d-%T -nv $1"
 alias udpT="nmap -sU -sC — top-ports 200 $1 -oA udp_top$1_$2_%y%m%d-%T -nv $2"
 
 "editors"
-alias vs="/usr/share/code/code --no-sandbox --unity-launch"
 alias ge="gedit $1"
 
 
