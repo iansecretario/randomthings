@@ -49,3 +49,8 @@ screen -ls
 ctrl + A + D
 
 screen -dr 
+
+
+#Powershell-fu
+https://www.sans.org/blog/pen-test-poster-white-board-powershell-built-in-port-scanner/
+
